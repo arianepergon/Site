@@ -1,0 +1,264 @@
+/*Page Layout*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+   	background-color: #D1D1D1;
+	height: 2250;
+}
+
+#tudo {
+	background-color: #FFFFFF;
+	width: 910px;
+	height: 2250px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+
+/* Menu */
+.nav .container {
+    background-color: #0069A0;
+    position: relative;
+    width: 100%;
+    padding-top: 13px;
+    padding-bottom: 6px;
+
+}
+
+.nav a {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 14px 10px;
+    text-transform: uppercase;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+    -moz-opacity: 1;
+    opacity: 1;
+}
+.nav a:hover {
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav ul li:hover > ul {
+    display: block;
+}
+/*End Menu*/
+
+
+/*Content*/
+
+#tudo #box1 {
+	padding: 20px;
+	text-align: justify;
+}
+
+#tudo #box1 h3 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+#tudo #box1 h2 {
+	background-image: url(../images/fundo_h.jpg);
+	font-size: 18px;
+	color: #FFFFFF;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 55px;
+	font-weight: bold;
+}
+
+#tudo #box1 li {
+	list-style-type: none;
+	color: #333333;
+	margin-bottom: 5px;
+	padding: 8px;
+	width: 770px;
+	border: 1px solid #CCCCCC;
+}
+
+#box1 #modulos {
+	width: 790px;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+}
+
+#modulos #tipo {
+	float: left;
+	width: 150px;
+}
+
+#modulos #descricao {
+	float: left;
+	padding: 5px;
+	width: 618px;
+	background-color:#D1D1D1;
+	
+}
+
+#modulos #descricao h3 {
+	font-size:13px;
+}
+
+.clear {
+	height: 5px;
+	float: left;
+	
+}
+/*End Content*/
+
+
+
+
+/*Footer*/
+
+.rodape {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background: #DCDCDC;
+    width: 100%;
+}
+
+.container {
+	background-color: #CC041C;
+	height: 10px;
+
+}
+.smGlobalBtn{ /* global button class */
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    box-shadow: 0 2px 2px #999;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 1,5em;
+    border-radius: 25px;
+    -moz-border-radius:25px;
+    -webkit-border-radius:25px;
+    right: auto;
+}
+
+
+/* facebook button class*/
+.facebookBtn{
+    background: #4060A5;
+}
+
+.facebookBtn:before{ /* use :before to add the relevant icons */
+    font-family: "FontAwesome";
+    content: "\f09a"; /* add facebook icon */
+}
+
+.facebookBtn:hover{
+    color: #4060A5;
+    background: #fff;
+}
+
+/* twitter button class*/
+.twitterBtn{
+    background: #00ABE3;
+}
+
+.twitterBtn:before{
+    font-family: "FontAwesome";
+    content: "\f099"; /* add twitter icon */
+}
+
+.twitterBtn:hover{
+    color: #00ABE3;
+    background: #fff;
+}
+
+/* google plus button class*/
+.googleplusBtn{
+    background: #e64522;
+}
+
+.googleplusBtn:before{
+    font-family: "FontAwesome";
+    content: "\f0d5"; /* add googleplus icon */
+}
+
+.googleplusBtn:hover{
+    color: #e64522;
+    background: #fff;
+}
+
+/* linkedin button class*/
+.linkedinBtn{
+    background: #0094BC;
+}
+
+.linkedinBtn:before{
+    font-family: "FontAwesome";
+    content: "\f0e1"; /* add linkedin icon */
+}
+
+.linkedinBtn:hover{
+    color: #0094BC;
+    background: #fff;
+}
+
+/* pinterest button class*/
+.pinterestBtn{
+    background: #cb2027;
+}
+
+.pinterestBtn:before{
+    font-family: "FontAwesome";
+    content: "\f0d2"; /* add pinterest icon */
+}
+
+.pinterestBtn:hover{
+    color: #cb2027;
+    background: #fff;
+}
+
+/* tumblr button class*/
+.tumblrBtn{
+    background: #3a5876;
+}
+
+.tumblrBtn:before{
+    font-family: "FontAwesome";
+    content: "\f173"; /* add tumblr icon */
+}
+
+.tumblrBtn:hover{
+    color: #3a5876;
+    background: #fff;
+}
+
+/* rss button class*/
+.rssBtn{
+    background: #e88845;
+}
+
+.rssBtn:before{
+    font-family: "FontAwesome";
+    content: "\f09e"; /* add rss icon */
+}
+
+.rssBtn:hover{
+    color: #e88845;
+    background: #fff;
+}
+/*End Footer*/
+

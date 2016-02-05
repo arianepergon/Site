@@ -1,0 +1,167 @@
+#tudo {
+	width: 910px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#box4 a {
+	color: #033A7A;
+	text-decoration: underline;
+}
+
+#tudo #menu {
+	padding-left: 5px;
+}
+#tudo #box1 {
+	padding: 20px;
+	text-align: justify;
+}
+#tudo #box1 h2 {
+	background-image: url(../img/fundo_h.jpg);
+	font-size: 18px;
+	color: #FFFFFF;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 55px;
+}
+
+#tudo #box1 ul {
+}
+#tudo #box1 li {
+	list-style-type: none;
+	color: #333333;
+	margin-bottom: 5px;
+	padding: 8px;
+	width: 770px;
+	border: 1px solid #CCCCCC;
+}
+#box1 #modulos {
+	width: 790px;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+}
+#modulos #tipo {
+	float: left;
+	width: 150px;
+}
+#modulos #descricao {
+	float: left;
+	padding: 10px;
+	width: 618px;
+	background-color: #E9E9E9;
+}
+#tudo #box2 {
+	background-color: #055695;
+	width: 880px;
+	background-image: url(../img/fundo2_box.jpg);
+	padding: 10px;
+}
+#tudo #box2 h1 {
+	color: #055695;
+	font-size: 16px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #055695;
+	margin: 0px;
+}
+
+#tudo #box3 {
+	padding: 10px;
+}
+#tudo #box3 h1 {
+	color: #055695;
+	font-size: 16px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #055695;
+}
+
+#tudo #box4 {
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 11px;
+}
+
+#tudo #box4 h1 {
+	color: #055695;
+	font-size: 16px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #055695;
+}
+
+#box4 #ouro {
+	float: left;
+	width: 260px;
+	background-color: #FFCC00;
+	padding: 10px;
+	background-image: url(../img/ouro.jpg);
+	min-height:450px;
+	margin-left: 8px;
+	margin-right: 10px;
+}
+#box4 #prata {
+	float: left;
+	width: 260px;
+	padding: 10px;
+	margin-right: 10px;
+	background-color: #CCCCCC;
+	background-image: url(../img/prata.jpg);
+	min-height:450px
+}
+#box4 #bronze {
+	float: left;
+	width: 260px;
+	padding: 10px;
+	background-color: #FF9966;
+	background-image: url(../img/bronze.jpg);
+	min-height:450px
+}
+#par #sobreaempresa {
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#sobreaempresa  input {
+	height: 25px;
+	border: 1px solid #809CBC;
+	margin: 3px;
+}
+
+
+
+#tudo #rodape {
+}
+
+.clear {
+clear: both;
+}
+#tudo #box4 h2 {
+
+	background-image: url(../img/fundo_h.jpg);
+	font-size: 18px;
+	color: #FFFFFF;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 55px;
+}
+
+.erroValidacao
+{
+ color:#ff0000;
+}
