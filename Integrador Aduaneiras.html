@@ -3,73 +3,37 @@
 
 <head>
 
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Integrador SAP</title>
-
-<!--Load Bootstrap css-->
-<link href="../css/bootstrap.css" rel="stylesheet" type="text/css">
-
-<!--load font awesome-->
-<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-
-<!--load file css-->
-<link rel="stylesheet" href="css/aduaneiras.css">
-
-
-<!-- Place favicon.ico in the root directory -->
-<link rel="apple-touch-icon" href="images/Icon/Favicon_Quantic.ico">
-<link rel="icon" href="images/Icon/Icone_Quantic.png">
-
-
-<!--Scripts-->
-<!-- <script src="js/jquery-1.9.1.min.js"></script> -->
-<script src="../js/jquery-1.11.3.min.js" type="text/javascript"></script>
-<script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
-<script type="text/javascript" src="js/jquery.validate.min.js"></script>
-<script type="text/javascript" src="js/jquery.slides.min.js"></script>
-<script type="text/javascript" src="js/Default.js"></script>
-<script>
-        $(function(){
-            var nav = $('#menuHeader');
-            $(window).scroll(function () {
-                if ($(this).scrollTop() > 150) {
-                    nav.addClass("menu-fixo");
-                } else {
-                    nav.removeClass("menu-fixo");
-                }
-            });
-        });
-    </script>
-<script type="text/javascript">
-        function exibe(id) {
-            if(document.getElementById(id).style.display=="none") {
-                document.getElementById(id).style.display = "inline";
-            }
-            else {
-                document.getElementById(id).style.display = "none";
-            }
-        }
-    </script>
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Integrador SAP</title>
+    
+    <!--Load Bootstrap css-->
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!--load font awesome-->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    
+    <!--load file css-->
+    <link rel="stylesheet" href="css/aduaneiras.css">
+    
+    
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="apple-touch-icon" href="images/Icon/Favicon_Quantic.ico">
+    <link rel="icon" href="images/Icon/Icone_Quantic.png">
 
 </head>
 
 
-<body style="padding-bottom: 70px">
+<body>
 
 <div id="tudo">
    
         <div id="top">
         <img src="images/top_Aduaneiras.jpg" width="910" />
         <div class="container-fluid"> </div>
+        </div>
 
        
 <!--Menu-->
@@ -130,13 +94,13 @@
 
 <div class="modulos">
             <div id="modulos">
-                <div id="tipo"><img src="images/Aduaneiras/01.jpg" width="150" height="36" /></div>
+              <div id="tipo"><img src="images/Aduaneiras/01.jpg" width="150" height="36" /></div>
                 <div id="descricao"><h3>Com ou sem desdobramento, descrição, unidade de medidas e seus destaques.</h3></div>
                 <div class="clear"><p></p></div>
             </div>
 
             <div id="modulos">
-                <div id="tipo"><img src="images/Aduaneiras/02.jpg" width="150" height="52" /></div>
+                <div id="tipo"><img src="images/Aduaneiras/02.jpg" width="150" height="50" /></div>
                 <div id="descricao"><h3>Alíquotas do I.I. e notas do I.I., exceções da TEC, tipo de ICMS e seus destaques, notas de LI do MDIC.</h3></div>
                 <div class="clear"></div>
             </div>
@@ -148,7 +112,7 @@
             </div>
 
             <div id="modulos">
-                <div id="tipo"><img src="images/Aduaneiras/04.jpg" width="150" height="52" /></div>
+                <div id="tipo"><img src="images/Aduaneiras/04.jpg" width="150" height="50" /></div>
                 <div id="descricao"><h3>Notas de <em>Dumping</em>, Editoria, RAE, Exigencias, NVE e seus atributos, Indicação de NCM com ST, destaques da Cide, da NCM e Tratamento Administrativo, NCM com indicação SSN.</h3></div>
                 <div class="clear"></div>
             </div>
@@ -178,20 +142,20 @@
             </div>
 
             <div id="modulos">
-                <div id="tipo"><img src="images/Aduaneiras/09.jpg" width="150" height="84" /></div>
+                <div id="tipo"><img src="images/Aduaneiras/09.jpg" width="150" height="76" /></div>
                 <div id="descricao"><h3>NCM, descrição, ST com alíquota de ICMS do destino, IE (%), MVA Original %, MVA Ajustada %, tratamento tributário (responsabilidade, pagamento do ICMS, base de cálculo, inaplicabilidade, benefícios fiscais e outros, CFOP), alertas do tratamento, ato legal e link para íntegra do ato legal - **Por UF **.</h3></div>
                 <div class="clear"></div>
             </div>
 
             <div id="modulos">
-                <div id="tipo"><img src="images/Aduaneiras/10.jpg" width="150" height="52" /></div>
+                <div id="tipo"><img src="images/Aduaneiras/10.jpg" width="150" height="50" /></div>
                 <div id="descricao"><h3>Moedas fiscais para o pagamento do Despacho Aduaneiro <br />(PTAX 800).<br /></h3>
                 </div>
                 <div class="clear"></div>
             </div>
 
             <div id="modulos">
-                <div id="tipo"><img src="images/Aduaneiras/11.jpg" width="150" height="116" /></div>
+                <div id="tipo"><img src="images/Aduaneiras/11.jpg" width="150" height="102" /></div>
                 <div id="descricao"><h3><strong>Consultoria Virtual Ilimitada</strong><br />
                     Utilize na sua <em>intranet</em> ou em qualquer sistema os questionamentos selecionados pelos nossos experientes profissionais, que acompanham diariamente as dúvidas de nossos assinantes com as respostas que se assemelham a um verdadeiro parecer.
                     <br />Abrange o maior acervo de questionamentos nas áreas tributária, societária, trabalhista, previdenciária e de comércio exterior.</h3></div>
@@ -199,45 +163,65 @@
             </div>
 
             <div id="modulos">
-                <div id="tipo"><img src="images/Aduaneiras/12.jpg" width="150" height="52" /></div>
+                <div id="tipo"><img src="images/Aduaneiras/12.jpg" width="150" height="50" /></div>
                 <div id="descricao"><h3>Nomenclatura de Valor Aduaneiro e Estatística e suas NCMs, sequencial, descrição e unidade de medidas.</h3></div>
                 <div class="clear"></div>
             </div>
 
             <div id="modulos">
-                <div id="tipo"><img src="images/Aduaneiras/13.jpg" width="150" height="84" /></div>
+                <div id="tipo"><img src="images/Aduaneiras/13.jpg" width="150" height="76" /></div>
                 <div id="descricao"><h3>Correlações Naladi com NCM, sequencial 001, descrição, unidade de medida, tradução em espanhol e inglês, código Naladi 2012 com indicação de acordos e preferências de exportação e importação, bem como suas correlações Naladi em referência 2007, 2002, 1996, 1993 e
                     <br />NCCA.</h3></div>
                 <div class="clear"></div>
             </div>
 
             <div id="modulos">
-                <div id="tipo"><img src="images/Aduaneiras/14.jpg" width="150" height="155" /></div>
+                <div id="tipo"><img src="images/Aduaneiras/14.jpg" width="150" height="138" /></div>
                 <div id="descricao"><h3>Empresas dos mais variados segmentos podem contar com a experiência de nossos profissionais para minimizar o árduo trabalho de manter tabelas de sistemas internos atualizadas, diariamente, com as informações publicadas no DOU, DOE e DOM.<br /><br />
                     Por meio do serviço “On Demand”, produzimos conteúdos específicos que estarão integrados, via Web Service ou API, melhorando as funcionalidades dos sistemas. É a ferramenta que faltava para a sua equipe não perder tempo com atualizações manuais e focar esforços no negócio da empresa.<br />&nbsp;</h3></div>
                 <div class="clear"></div>
             </div>
 </div>
 
+
+</div>
+
+
 <!--Footer-->
 
-
-    <div class="pull-left">
-      <h6>2016 @Copyright <em>Quantic Software</em> - Todos os direitos reservados</h6>
+<div class="rodape">
+    <div class="container">
+            <div class="pull-left"> 
+            	<h6>2015 @Copyright Quantic Software - Todos os direitos reservados</h6> 
+            </div>
+            <div class="pull-right"> 
+                <a class="facebookBtn smGlobalBtn" href="#"></a> 
+                <a class="twitterBtn smGlobalBtn" href="#"></a> 
+                <a class="googleplusBtn smGlobalBtn" href="#"></a> 
+                <a class="linkedinBtn smGlobalBtn" href="https://www.linkedin.com/company/10087720?trk=tyah&trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A10087720%2Cidx%3A2-1-2%2CtarId%3A1449601131765%2Ctas%3Aquantic%20software" target="_blank"></a> 
+            </div>
     </div>
-    <div class="pull-right">
-    	<a class="facebookBtn smGlobalBtn" href="#"></a>
-        <a class="twitterBtn smGlobalBtn" href="#"></a>
-        <a class="googleplusBtn smGlobalBtn" href="#"></a>
-        <a class="linkedinBtn smGlobalBtn" href="https://www.linkedin.com/company/10087720?trk=tyah&trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A10087720%2Cidx%3A2-1-2%2CtarId%3A1449601131765%2Ctas%3Aquantic%20software" target="_blank"></a>
-    </div>
-    <div class="rodape" id="gray"></div>
-    <div class="container" id="red"></div>
+</div>
 
-
-
-<script src="../js/bootstrap.js" type="text/javascript"></script>
+<div class="barra"></div>
 <!--End Footer-->
+
+</div><!--tudo-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+<script src="dist/js/plugins.js"></script>
+<script src="dist/js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='https://www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+</script>
 
 </body>
 </html>

@@ -1,55 +1,33 @@
 @charset "utf-8";
 /* CSS Document */
 
+
 html {
-	min-height: 100%;
-	min-width: 1024px;
+    color: #222;
+	font-size: 1em;
+    line-height: 1.4;
+	position: relative;
+    min-height: 100%;
 }
 
-.background {
-	background-repeat: no-repeat;
-	background-size:cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	-o-background-size: cover;
+
+body {
+    padding: 0;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+   	background-color: #D1D1D1;
+	height: 2300;
+	margin: 0 0 70px; /* altura do seu footer */
 }
 
-.texto {
-	position: absolute; 
-  	top: 50px; 
-	left: 200px;
-	right: 200px;
-	bottom: -230px;
-   	font: 14px Helvetica, Sans-Serif; 
-   	padding: 20px;
-	text-align: justify;
-	line-height: 20px;
-	background: rgba(255, 255, 255, 0.5);
-}
-
-#logo {
-	height: 100px;
-	position:absolute;
-	padding-left: 550px;
-	top: 50px;
-	
-}
-
-.texto h1 {
-	font-size: 42px;
-	font-weight: bold;
-	padding-top: 0.5px;
-	text-shadow: 0.1em 0.1em 0.2em gray;
-}
-
-.texto h3 {
-	font-weight: bold;
-}
-
-.texto h2 {
-	color: #008fd3;
-	text-decoration: none;	
-	text-transform: lowercase;
+#tudo {
+	background-color: #FFFFFF;
+	width: 910px;
+	height: 2800;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
 }
 
 
@@ -60,6 +38,7 @@ html {
     width: 100%;
     padding-top: 13px;
     padding-bottom: 6px;
+
 }
 
 .nav a {
@@ -72,7 +51,6 @@ html {
     -moz-opacity: 1;
     opacity: 1;
 }
-
 .nav a:hover {
     filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);
     -moz-opacity: 0.5;
@@ -86,19 +64,78 @@ html {
 .nav ul li:hover > ul {
     display: block;
 }
-/* End Menu */
+/*End Menu*/
+
+
+/*Content*/
+
+#tudo #box1 {
+	padding: 20px;
+	text-align: justify;
+	height: 2000;
+}
+
+#tudo #box1 h3 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	margin-left: 35px;
+	margin-bottom: 30px;
+	margin-right: 50px;
+}
+
+#tudo #box1 h2 {
+	background-image: url(../images/fundo_h.jpg);
+	font-size: 18px;
+	color: #FFFFFF;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 55px;
+	font-weight: bold;
+}
+
+#tudo #box1 li {
+	list-style-type: none;
+	color: #333333;
+	margin-bottom: 5px;
+	padding: 8px;
+	width: 770px;
+	border: 1px solid #CCCCCC;
+}
+
+h6 {
+	margin-left: 35px;
+}
+
+/*End Content*/
+
 
 
 /*Footer*/
 
-.rodape .container {
-    padding-top: 20px;
-    padding-bottom: 10px;
-    background: #eeeeee;
-    position: absolute;
-    width: 100%;
+.rodape {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #CBCBCB;
+	position: absolute;
+	width: 910px;
+	clear: both;
+	height: 70px; /*se alterar o height, alterar a margin do body*/
 }
 
+.barra {
+	padding-top: 10px;
+	background-color: #CC041C;
+	height: 10px;
+	width: 910px;
+	position: absolute;
+	bottom: 0px;
+}
+  
+ .pull-right {
+	padding-right: 270px; 
+}
+ 
+ 
  /*REDES SOCIAIS*/ 
 .smGlobalBtn{ /* global button class */
     display: inline-block;
@@ -226,3 +263,7 @@ html {
     background: #fff;
 }
 /* End Footer*/
+
+
+
+

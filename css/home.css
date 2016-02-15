@@ -1,4 +1,3 @@
-
 /*! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ */
 
 /*
@@ -15,6 +14,13 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+	position: relative;
+    min-height: 100%;
+}
+
+
+body {
+    margin: 0 0 70px; /* altura do seu footer */
 }
 
 /*
@@ -370,25 +376,36 @@ textarea {
 
 .divisor {
     height: 50px;
+	clear: both;
 }
 
 /*Footer*/
 
-.rodape .container {
+
+.rodape {
 	padding-top: 20px;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 	background-color: #CBCBCB;
 	position: absolute;
 	width: 100%;
+	clear: both;
+	height: 70px;
 }
 
+
+
 .barra {
+	padding-top: 10px;
 	background-color: #CC041C;
 	height: 10px;
 	width: 100%;
 	position: absolute;
-}
+	bottom: 0px;
 
+}
+  
+ 
+  
 .smGlobalBtn{ /* global button class */
     display: inline-block;
     position: relative;
@@ -514,6 +531,4 @@ textarea {
     color: #e88845;
     background: #fff;
 }
-
-
 
