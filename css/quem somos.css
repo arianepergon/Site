@@ -60,19 +60,18 @@ html {
     width: 100%;
     padding-top: 13px;
     padding-bottom: 6px;
+
 }
 
 .nav a {
     color: #ffffff;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: bold;
     padding: 14px 10px;
-    text-transform: uppercase;
     filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100);
     -moz-opacity: 1;
     opacity: 1;
 }
-
 .nav a:hover {
     filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);
     -moz-opacity: 0.5;
@@ -86,8 +85,7 @@ html {
 .nav ul li:hover > ul {
     display: block;
 }
-/* End Menu */
-
+ /*End Menu*/
 
 /*Footer*/
 
